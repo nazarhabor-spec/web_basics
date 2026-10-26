@@ -15,3 +15,22 @@ h2 {
 a {
   color: blue;
 }
+/* Контейнер посилання */
+.home-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  text-decoration: none;
+}
+
+/* Приховуємо текст за замовчуванням */
+.home-link .nav-text {
+  display: none;
+  font-weight: bold;
+  color: #0056b3;
+}
+
+/* Показуємо текст тільки при наведенні курсору миші (:hover) */
+.home-link:hover .nav-text {
+  display: inline;
+}
