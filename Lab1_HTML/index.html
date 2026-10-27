@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Casino Bobik</title>
+   <link rel="stylesheet" href="style.css">
+    
+</head>
+
+<body>
+    <nav>
+    <a href="#">Головна</a>
+    <a href="#">Про мене</a>
+    <a href="#">Контакти</a>
+</nav>
+    <h1>КАЗИНО БОБІК</h1>
+    <h2>Best casino of the world</h2>
+    <p id="text">100 free spins</p> 
+    <div class="card">
+        <h2>Best casino of the world</h2>
+        <p id="number">0</p>
+        <button onclick="plus()">+</button>
+        <button onclick="minus()">-</button>
+        <p>you will win</p>
+        <button onclick="showMessage()">Натисни мене</button>
+    </div>
+    <img src="https://ua1.com.ua/assets/slots/images/games/Big-Bamboo-logo1.png" alt="PROMO SPIN">
+    <button>spin</button>
+    <br><br>
+    <a href="https://www.google.com">Відкрити Google</a>
+    <br><br>
+    <a href="https://www.youtube.com/?reload=9&app=desktop&gl=UA&hl=uk">Ютубик</a>
+<script>
+    function showMessage() {
+       document.getElementById("text").innerHTML= "SOSY PENIS"
+    }
+</script>
+<script>
+    let number = 0;
+
+    function plus() {
+        number = number + 1;
+        document.getElementById("number").innerHTML = number;
+    }
+
+    function minus() {
+        number = number - 1;
+        document.getElementById("number").innerHTML = number;
+    }
+</script>
+</body>
+</html>
